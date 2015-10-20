@@ -124,6 +124,10 @@ class PortNotFoundClient(NotFound):
     pass
 
 
+class SubnetNotFoundClient(NotFound):
+    pass
+
+
 class StateInvalidClient(BadRequest):
     pass
 
